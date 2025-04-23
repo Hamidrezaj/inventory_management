@@ -95,3 +95,5 @@ console.log(
   'Total Inventory Value (After Discount): $' +
     myStore.getInventoryValue().toFixed(2)
 );
+
+const searchResult = myStore.findProductByName('Milk');
