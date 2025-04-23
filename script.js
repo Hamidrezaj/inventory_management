@@ -76,3 +76,6 @@ const monitor = new ProductProperties('Monitor', 200, 2);
 
 // Create a Store
 const myStore = new Store();
+
+myStore.addProduct(keyboard);
+myStore.addProduct(mouse);
