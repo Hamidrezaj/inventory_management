@@ -90,3 +90,8 @@ console.log(
 );
 
 ProductProperties.applyDiscount(myStore.inventory, 0.15);
+
+console.log(
+  'Total Inventory Value (After Discount): $' +
+    myStore.getInventoryValue().toFixed(2)
+);
