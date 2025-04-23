@@ -97,3 +97,10 @@ console.log(
 );
 
 const searchResult = myStore.findProductByName('Milk');
+
+if (searchResult) {
+  console.log('Search Result:');
+  console.log(searchResult.toString());
+} else {
+  console.log('Product not found.');
+}
