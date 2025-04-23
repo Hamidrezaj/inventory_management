@@ -46,3 +46,11 @@ ProductProperties.applyDiscount([milk, eggs], 0.1);
 console.log('After 10% discount:');
 console.log(milk.toString());
 console.log(eggs.toString());
+
+// Store class
+
+class Store {
+  constructor() {
+    this.inventory = [];
+  }
+}
