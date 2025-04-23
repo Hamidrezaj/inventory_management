@@ -63,4 +63,8 @@ class Store {
       return total + product.getTotalValue();
     }, 0);
   }
+
+  findProductByName(name) {
+    // To be implemented
+  }
 }
