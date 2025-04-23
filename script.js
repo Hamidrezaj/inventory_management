@@ -79,3 +79,7 @@ const myStore = new Store();
 
 myStore.addProduct(keyboard);
 myStore.addProduct(mouse);
+
+myStore.addProduct(monitor);
+myStore.addProduct(milk);
+myStore.addProduct(eggs);
