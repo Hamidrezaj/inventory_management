@@ -55,6 +55,6 @@ class Store {
   }
 
   addProduct(product) {
-    // To be implemented
+    this.inventory.push(product);
   }
 }
