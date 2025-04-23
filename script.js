@@ -68,3 +68,8 @@ class Store {
     return this.inventory.find((product) => product.name === name) || null;
   }
 }
+
+// Sample non-perishable products
+const keyboard = new ProductProperties('Keyboard', 50, 5);
+const mouse = new ProductProperties('Mouse', 25, 10);
+const monitor = new ProductProperties('Monitor', 200, 2);
