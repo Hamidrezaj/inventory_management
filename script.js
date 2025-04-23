@@ -65,6 +65,6 @@ class Store {
   }
 
   findProductByName(name) {
-    // To be implemented
+    return this.inventory.find((product) => product.name === name) || null;
   }
 }
