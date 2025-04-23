@@ -83,3 +83,8 @@ myStore.addProduct(mouse);
 myStore.addProduct(monitor);
 myStore.addProduct(milk);
 myStore.addProduct(eggs);
+
+console.log(
+  'Total Inventory Value (Before Discount): $' +
+    myStore.getInventoryValue().toFixed(2)
+);
