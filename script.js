@@ -16,6 +16,12 @@ class ProductProperties {
       2
     )}, Quantity: ${this.quantity}`;
   }
+
+  static applyDiscount(products, discount) {
+    products.forEach((product) => {
+      product.price = product.price - product.price * discount;
+    });
+  }
 }
 
 // Subclass: PerishableProductProperties
