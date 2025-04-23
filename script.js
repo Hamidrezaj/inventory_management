@@ -41,5 +41,8 @@ class PerishableProductProperties extends ProductProperties {
 const milk = new PerishableProductProperties('Milk', 1.5, 10, '2024-12-31');
 const eggs = new PerishableProductProperties('Eggs', 2.0, 12, '2024-11-15');
 
+ProductProperties.applyDiscount([milk, eggs], 0.1);
+
+console.log('After 10% discount:');
 console.log(milk.toString());
 console.log(eggs.toString());
