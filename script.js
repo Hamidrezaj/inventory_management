@@ -53,4 +53,8 @@ class Store {
   constructor() {
     this.inventory = [];
   }
+
+  addProduct(product) {
+    // To be implemented
+  }
 }
